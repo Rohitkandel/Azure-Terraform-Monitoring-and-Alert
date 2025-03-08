@@ -9,20 +9,6 @@ An Azure Monitor Action Group for email notifications
 CPU utilization threshold alerts (triggers when average CPU > 60%)
 Disk space threshold alerts (triggers when available memory < 20 bytes)
 
-Prerequisites
-
-Terraform (v0.14+)
-Azure Subscription
-Azure CLI configured locally
-Sufficient permissions to create resources in Azure
-
-Repository Structure
-Copy├── main.tf              # Main Terraform configuration
-├── variables.tf         # Variable definitions
-├── outputs.tf           # Output definitions
-├── monitor.tf           # Azure monitoring configuration
-├── terraform.tfvars     # Variable values (not checked into git)
-└── README.md            # This file
 Resources Created
 The Terraform configuration creates the following resources:
 
