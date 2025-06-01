@@ -1,3 +1,5 @@
+/*
+
 # Resource Group
 resource "azurerm_resource_group" "app_rg" {
   name     = "provisioner-demo-rg"
@@ -135,3 +137,4 @@ resource "azurerm_linux_virtual_machine" "demo_vm" {
 
 
 }
+*/
