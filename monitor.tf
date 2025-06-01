@@ -46,9 +46,10 @@ resource "azurerm_monitor_metric_alert" "disk" {
     # when Available Memory Bytes < 20 for 5 min(default)
 
   }
-*/
+
 
   action {
     action_group_id = azurerm_monitor_action_group.main.id
   }
 }
+*/
